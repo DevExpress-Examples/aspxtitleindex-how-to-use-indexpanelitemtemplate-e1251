@@ -1,5 +1,5 @@
 <%@ Page Language="vb" AutoEventWireup="true"  CodeFile="Default.aspx.vb" Inherits="_Default" %>
-<%@ Register Assembly="DevExpress.Web.v8.3" Namespace="DevExpress.Web.ASPxTitleIndex"
+<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxTitleIndex"
 	TagPrefix="dxti" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -16,10 +16,10 @@
 				</asp:HyperLink>
 			</IndexPanelItemTemplate>
 			<Columns>
-				<dxti:Column>
-				</dxti:Column>
-				<dxti:Column>
-				</dxti:Column>
+				<dxti:TitleIndexColumn>
+				</dxti:TitleIndexColumn>
+				<dxti:TitleIndexColumn>
+				</dxti:TitleIndexColumn>
 			</Columns>
 		</dxti:ASPxTitleIndex>
 		<asp:AccessDataSource ID="AccessDataSource1" runat="server" DataFile="~/App_Data/Data.mdb"
