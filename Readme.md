@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # ASPxTitleIndex - How to use IndexPanelItemTemplate 
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e1251/)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how to customize <strong>ASPxTitleIndex</strong>'s IndexPanel by using the <strong>IndexPanelItemTemplate</strong>.</p>
